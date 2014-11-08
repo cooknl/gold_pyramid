@@ -6,6 +6,17 @@ def count_gold(pyramid):
     """
     Return max possible sum in a path from top to bottom
     """
+    rows = len(pyramid)
+
+    #Assemble every path
+
+    paths = [bin(x) for x in range((rows-1)**2)]#[[0 for x in range((rows-1))] for x in range((rows-1)**2)]
+    #Use format??
+
+    #for row in range(rows):
+
+
+
 
     #replace this for solution
     return 0
