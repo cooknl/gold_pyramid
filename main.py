@@ -31,16 +31,7 @@ def count_gold(pyramid):
             seed = seed >> 1
             #Append the value from pyramid in the given row/col to the int_path
             int_path.append(pyramid[row][col])
-
-            #print(pyramid[row])
-    sums = [sum(x) for x in paths]
-    max_sum = max(sums)
-    print(max_sum)
-
-
-
-    #replace this for solution
-    return max_sum
+    return max([sum(x) for x in paths])
 
 
 if __name__ == '__main__':
